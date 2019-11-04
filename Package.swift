@@ -19,6 +19,8 @@ let package = Package(
             path: "Version"),
         .testTarget(
             name: "VersionTests",
-            dependencies: ["Version"]),
+            dependencies: ["Version"],
+            path: "Version"
+        ),
     ]
 )
